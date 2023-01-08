@@ -4,7 +4,8 @@
 // 918 -> 1
 
 
-Console.WriteLine("Введи трёхзначное число");
+Console.WriteLine("Введите трёхзначное число");
 int n = Convert.ToInt32(Console.ReadLine());
+
 string second = n.ToString();
 Console.WriteLine(second[1]);

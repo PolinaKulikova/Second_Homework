@@ -8,12 +8,14 @@ int n = Convert.ToInt32(Console.ReadLine());
   
 if ( n == 6 || n == 7 )
 {
-  Console.WriteLine("да");  
+    Console.WriteLine("да");  
 }
+
 else if (n < 1 || n > 7)
 {
     Console.WriteLine("Это число не является днем недели");
 }
+
 else
 {
     Console.WriteLine("нет");
